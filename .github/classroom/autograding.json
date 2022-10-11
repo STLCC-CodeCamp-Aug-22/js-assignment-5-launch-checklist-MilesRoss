@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Grading Fetch Calls",
+      "setup": "npm install",
+      "run": "npm run test-grading-fetch",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Grading DOM Manipulation",
+      "setup": "npm install",
+      "run": "npm run test-grading-dom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
