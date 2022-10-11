@@ -1,0 +1,24 @@
+{
+  "name": "assignment5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grading.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-grading-dom": "jasmine spec/grading-dom.spec.js",
+    "test-grading-fetch": "jasmine spec/grading-fetch.spec.js",
+    "build": "browserify script.js scriptHelper.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jasmine-dom": "^1.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "jasmine": "^3.6.3",
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}

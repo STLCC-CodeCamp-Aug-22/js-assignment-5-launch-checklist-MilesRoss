@@ -1,0 +1,53 @@
+h1 {
+   text-align: center;
+}
+
+div {
+   text-align: left;
+}
+
+#faultyItems {
+   visibility: hidden;   
+}
+
+#launchForm {
+   background-color: #ECF0F1;
+   text-align: center;
+   margin: auto;
+   width: 25%;
+   border: 3px solid black;
+   padding: 10px;
+}
+
+#launchStatusCheck {
+   background-color: #ECF0F1;
+   text-align: center;
+   margin: 50px auto;
+   width: 50%;
+   border: 3px solid black;
+   padding: 10px;
+}
+
+#missionTarget img {
+   max-width: 40%;
+   max-height: 250px;
+}
+
+#missionTarget {
+   background-color: #ECF0F1;
+   text-align: center;
+   margin: 50px auto;
+   width: 50%;
+   border: 3px solid black;
+   padding: 10px;
+}
+
+button {
+   background-color: #419f6a;
+   border: none;
+   color: white;
+   border-radius: 8px;
+   width: 25%;
+   height: 30px;
+   margin: 10px 0;
+}
